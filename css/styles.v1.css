@@ -202,7 +202,7 @@ p{margin-bottom:1rem}
 }
 
 /* ===== CTA BAND ===== */
-.cta-band{background:linear-gradient(135deg,var(--accent) 0%,#e74c3c 100%);color:var(--white);padding:3.5rem 0;text-align:center}
+.cta-band{background:linear-gradient(135deg,var(--primary-dark),var(--primary));color:var(--white);padding:3.5rem 0;text-align:center}
 .cta-band h2{color:var(--white);margin-bottom:.75rem}
 .cta-band p{font-size:1.1rem;opacity:.9;margin-bottom:1.5rem}
 .cta-band .btn{background:var(--white);color:var(--accent);font-size:1.05rem}
