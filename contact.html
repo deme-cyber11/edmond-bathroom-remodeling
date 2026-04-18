@@ -159,10 +159,9 @@
       <!-- Right Column: Contact Form -->
       <div style="background:var(--off-white);padding:2rem;border-radius:var(--radius-lg);box-shadow:var(--shadow)">
         <h3 style="margin-bottom:1.25rem">Request a Free Estimate</h3>
-        <form action="https://api.web3forms.com/submit" method="POST">
-          <input type="hidden" name="access_key" value="0219881f-13e5-4175-b720-517b8d10c028">
+        <form action="https://lead-manager-api.irontigerdigital.workers.dev/ingest" method="POST">
           <input type="hidden" name="redirect" value="https://scissortailbath.com/thank-you.html">
-          <input type="hidden" name="subject" value="New Lead - Scissortail Bath">
+          <input type="hidden" name="_subject" value="New Lead - Scissortail Bath">
           <div class="form-group">
             <label for="name">Full Name *</label>
             <input type="text" id="name" name="name" required placeholder="Your full name">
