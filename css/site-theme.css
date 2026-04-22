@@ -1,0 +1,114 @@
+/* Scissortail Bath — site-specific overrides for v2.5 */
+:root {
+  /* v2.5 vars */
+  --color-accent:      #2563eb;
+  --color-accent-dark: #1d4ed8;
+  --color-accent-glow: rgba(37, 99, 235, 0.3);
+
+  /* v1 vars — override red to blue so all existing HTML classes pick up the change */
+  --accent:       #2563eb;
+  --accent-hover: #1d4ed8;
+}
+
+/* Initials badge on brand */
+.header__brand::before {
+  content: 'SB';
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: var(--accent);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 900;
+  color: #fff;
+  margin-right: 0.5rem;
+  flex-shrink: 0;
+  vertical-align: middle;
+  letter-spacing: -0.02em;
+}
+.header__brand {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Fixed header clearance for inner pages */
+.page-hero    { padding-top: 7rem; padding-bottom: 3rem; }
+.service-hero { padding-top: 7rem; }
+@media (max-width: 768px) {
+  .page-hero    { padding-top: 6rem; padding-bottom: 2.5rem; }
+  .service-hero { padding-top: 6rem; }
+}
+
+/* Mobile contact grid */
+@media (max-width: 640px) {
+  .contact__grid { grid-template-columns: 1fr !important; }
+  .contact__form,
+  .contact__info { min-width: 0; max-width: 100%; }
+  .contact__detail a,
+  .contact__detail span { word-break: break-word; overflow-wrap: anywhere; }
+}
+
+/* Scrollable wide tables */
+main table,
+.content-section table,
+.page-content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* List padding (reset fix) */
+.services ul,
+.about ul,
+.page-content ul,
+.faq-item ul { padding-left: 1.6rem; }
+.services li,
+.about li,
+.page-content li { margin-bottom: 0.4rem; }
+
+/* Testimonial legibility */
+.testimonial-card p { font-style: normal !important; }
+
+/* Hero badge blue glow */
+.hero__badge { border-color: rgba(37, 99, 235, 0.3); }
+
+/* Service card icon blue */
+.service-card__icon { background: rgba(37, 99, 235, 0.1); }
+
+/* Section label — v1 class */
+.section-header__label {
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--accent);
+}
+
+/* FAQ active state */
+.faq-item.active .faq-item__q { color: var(--accent); }
+
+/* CTA band button */
+.cta-band .btn { color: var(--accent); }
+
+/* Footer accent */
+.footer__brand span { color: var(--accent); }
+.footer__links a:hover,
+.footer__bottom a:hover { color: var(--accent); }
+
+/* Process step circles */
+.process-step__num,
+[style*="background:var(--accent"] { background: var(--accent) !important; }
+
+/* Trust bar icon */
+.trust-bar__item i { color: #93c5fd; }
+
+/* Mobile CTA call button */
+.mobile-cta__btn--call { background: var(--accent); }
+
+/* Form focus ring */
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
