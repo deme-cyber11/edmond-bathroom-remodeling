@@ -375,6 +375,14 @@ body.st .mobile-cta, body.st .floating-cta { display: none; }
   body.st .cta-band .btn { width: 100%; }
   body.st .cta-band .container > a + a { margin: 10px 0 0; }
   body.st .post-cta { padding: 26px 20px; }
+  body.st .table-wrap table, body.st .table-wrap tbody, body.st .table-wrap tr, body.st .table-wrap td { display: block; width: 100%; }
+  body.st .table-wrap { overflow: visible; }
+  body.st .table-wrap thead { display: none; }
+  body.st .table-wrap table { border: 0; box-shadow: none; background: none; }
+  body.st .table-wrap tr { margin-bottom: 14px; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--white); box-shadow: var(--shadow); }
+  body.st .table-wrap td { border: 0; padding: 4px 18px; background: none !important; }
+  body.st .table-wrap td:first-child { padding-top: 16px; font: 700 1.08rem/1.3 var(--display); }
+  body.st .table-wrap td:last-child { padding-bottom: 16px; color: var(--muted); }
   body.st .thank-you, body.st .not-found { padding: 36px 0 48px; }
   body.st .thank-you .container, body.st .not-found .container { padding: 28px 22px; margin: 0 16px; width: auto; }
   body.st .section-header__label, body.st .hero__badge { font-size: .8rem; }

@@ -22,7 +22,7 @@ usage: python3 _modernize-scissortail.py [repo-root]
 import os, re, sys, glob
 
 ROOT = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(os.path.abspath(__file__)))
-V = '20261001r2'
+V = '20261001r2b'
 PHONE = '(405) 281-3672'
 TEL = 'tel:4052813672'
 
