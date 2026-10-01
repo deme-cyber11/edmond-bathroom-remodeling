@@ -20,23 +20,10 @@
 <!-- Preconnect -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://unpkg.com">
-
-<!-- Preload hero CSS -->
-<link rel="preload" href="../css/styles.v1.css" as="style">
 
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-<!-- Phosphor Icons (defer) -->
-<script defer src="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css" defer></script>
-<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/fill/style.css" media="print" onload="this.media='all'">
 
 <!-- Stylesheet -->
-<link rel="stylesheet" href="../css/styles.v1.css">
-    <link rel="stylesheet" href="/css/style.v2.5.css">
-    <link rel="stylesheet" href="/css/site-theme.css">
 
 <!-- GA4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-D6ZBY16329"></script>
@@ -167,43 +154,41 @@
 <meta property="og:image:alt" content="Scissortail Bath">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://scissortailbath.com/images/og-card.jpg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=DM+Sans:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/css/modern.css?v=20261001r2">
 </head>
-<body>
+<body class="st st-post">
 
 <!-- HEADER -->
-<header class="header" id="header">
+<header class="header">
   <div class="header__inner">
-    <a href="/" class="header__brand">Edmond <span>Bathroom Remodeling</span></a>
+    <a href="/" class="header__brand"><span class="brand-mark" aria-hidden="true">SB</span>Scissortail <span>Bath</span></a>
     <nav class="header__nav" id="mainNav">
       <a href="/">Home</a>
-      <a href="/services/full-bathroom-remodel.html">Services</a>
+      <div class="nav-dd"><a href="/services/full-bathroom-remodel.html" aria-haspopup="true">Services <svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/></svg></a><div class="nav-dd__menu"><a href="/services/full-bathroom-remodel.html">Full Bathroom Remodel</a><a href="/services/shower-remodel.html">Shower Remodel</a><a href="/services/bathtub-replacement.html">Bathtub Replacement</a><a href="/services/tile-installation.html">Tile Installation</a><a href="/services/vanity-upgrade.html">Vanity Upgrade</a><a href="/services/accessibility-remodel.html">Accessibility Remodel</a></div></div>
+      <div class="nav-dd"><a href="/locations/edmond.html" aria-haspopup="true">Areas <svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/></svg></a><div class="nav-dd__menu nav-dd__menu--cols"><a href="/locations/edmond.html">Edmond</a><a href="/locations/oklahoma-city.html">Oklahoma City</a><a href="/locations/yukon.html">Yukon</a><a href="/locations/mustang.html">Mustang</a><a href="/locations/piedmont.html">Piedmont</a><a href="/locations/norman.html">Norman</a><a href="/locations/moore.html">Moore</a><a href="/locations/midwest-city.html">Midwest City</a><a href="/locations/del-city.html">Del City</a><a href="/locations/el-reno.html">El Reno</a></div></div>
       <a href="/about.html">About</a>
+      <a href="/blog/" class="active">Blog</a>
       <a href="/faq.html">FAQ</a>
       <a href="/contact.html">Contact</a>
-      <a href="tel:4052813672" class="header__phone header__phone--mobile-only"><i class="ph ph-phone"></i> (405) 281-3672</a>
+      <a href="tel:4052813672" class="header__phone header__phone--mobile-only"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.513 2.31a1.5 1.5 0 0 1-1.02 1.737l-1.183.394a.531.531 0 0 0-.316.712 11.042 11.042 0 0 0 5.567 5.567c.27.12.588-.006.712-.316l.394-1.183a1.5 1.5 0 0 1 1.737-1.02l2.31.513A1.5 1.5 0 0 1 18 14.352V15.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 7.326 13.019 13.019 0 0 1 2 4V3.5Z" clip-rule="evenodd"/></svg> (405) 281-3672</a>
     </nav>
-    <a href="tel:4052813672" class="header__phone header__phone--desktop"><i class="ph ph-phone"></i> (405) 281-3672</a>
-    <button class="header__toggle" aria-label="Menu" aria-expanded="false"><i class="ph ph-list"></i></button>
+    <a href="tel:4052813672" class="header__phone header__phone--desktop"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.513 2.31a1.5 1.5 0 0 1-1.02 1.737l-1.183.394a.531.531 0 0 0-.316.712 11.042 11.042 0 0 0 5.567 5.567c.27.12.588-.006.712-.316l.394-1.183a1.5 1.5 0 0 1 1.737-1.02l2.31.513A1.5 1.5 0 0 1 18 14.352V15.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 7.326 13.019 13.019 0 0 1 2 4V3.5Z" clip-rule="evenodd"/></svg> (405) 281-3672</a>
+    <button class="header__toggle" aria-label="Menu" aria-expanded="false" aria-controls="mainNav"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd"/></svg></button>
   </div>
 </header>
 
 <!-- BREADCRUMB -->
-<nav class="breadcrumb" style="background:#f8fafc;padding:16px 0;border-bottom:1px solid #e2e8f0;">
-  <div class="container" style="font-size:0.9rem;color:#64748b;">
-    <a href="/" style="color:#4A90D9;text-decoration:none;">Home</a>
-    <span style="margin:0 8px;">&rsaquo;</span>
-    <a href="/blog/" style="color:#4A90D9;text-decoration:none;">Blog</a>
-    <span style="margin:0 8px;">&rsaquo;</span>
-    <span style="color:#374151;">How Much Does Bathroom Remodeling Cost in Edmond? (2026 Guide)</span>
-  </div>
-</nav>
-
 <!-- BLOG CONTENT -->
-<article class="section" style="background:#fff;padding:48px 0 64px;">
-  <div class="container" style="max-width:800px;">
+<section class="page-hero" style="--hero-img:url(/images/site/svc-full.jpg)">
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="breadcrumbs__list"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/blog/">Blog</a><span aria-hidden="true">/</span><span aria-current="page">How Much Does Bathroom Remodeling Cost in Edmond? (2026 Guide)</span></div></nav><h1>How Much Does Bathroom Remodeling Cost in Edmond? (2026 Guide)</h1>
+    <p class="post-meta">Updated March 2026 &middot; Scissortail Bath &middot; 6 min read</p>
+  </div>
+</section>
 
-    <h1 style="font-size:2rem;line-height:1.3;margin-bottom:12px;">How Much Does Bathroom Remodeling Cost in Edmond? (2026 Guide)</h1>
-    <p style="color:#64748b;font-size:0.95rem;margin-bottom:32px;">Updated March 2026 &middot; Scissortail Bath &middot; 6 min read</p>
+<article class="post">
+  <div class="container">
 
     <!-- INTRO -->
     <p>If you're planning a bathroom remodel in Edmond, Oklahoma, the first question on your mind is almost certainly: how much is this going to cost? It's a fair question, and the answer depends on the scope of the project, the materials you choose, and the current condition of your bathroom. Edmond is a growing OKC suburb with above-average household incomes and a housing stock that ranges from 1980s builder-grade ranches to newer construction in neighborhoods like Deer Creek and Coffee Creek. That mix means remodeling costs here reflect a wide range of starting points.</p>
@@ -214,30 +199,30 @@
     <h2>Average Bathroom Remodeling Costs in Edmond (2026)</h2>
     <p>Here are the typical cost ranges for bathroom remodels in the Edmond and OKC metro area, based on 2026 pricing for labor and materials:</p>
 
-    <div style="overflow-x:auto;margin:24px 0;">
-      <table style="width:100%;border-collapse:collapse;font-size:1rem;">
+    <div class="table-wrap">
+      <table>
         <thead>
-          <tr style="background:#1a1a2e;color:#fff;">
-            <th style="padding:14px 16px;text-align:left;border-radius:8px 0 0 0;">Remodel Type</th>
-            <th style="padding:14px 16px;text-align:left;">Cost Range</th>
-            <th style="padding:14px 16px;text-align:left;border-radius:0 8px 0 0;">What's Included</th>
+          <tr>
+            <th>Remodel Type</th>
+            <th>Cost Range</th>
+            <th>What's Included</th>
           </tr>
         </thead>
         <tbody>
-          <tr style="border-bottom:1px solid #e2e8f0;">
-            <td style="padding:14px 16px;font-weight:600;">Cosmetic Refresh</td>
-            <td style="padding:14px 16px;color:#c8102e;font-weight:700;">$3,000 &ndash; $8,000</td>
-            <td style="padding:14px 16px;">New fixtures, vanity swap, paint, lighting, mirror. No tile or layout changes.</td>
+          <tr>
+            <td>Cosmetic Refresh</td>
+            <td>$3,000 &ndash; $8,000</td>
+            <td>New fixtures, vanity swap, paint, lighting, mirror. No tile or layout changes.</td>
           </tr>
-          <tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
-            <td style="padding:14px 16px;font-weight:600;">Mid-Range Remodel</td>
-            <td style="padding:14px 16px;color:#c8102e;font-weight:700;">$8,000 &ndash; $18,000</td>
-            <td style="padding:14px 16px;">New tile, vanity, fixtures, lighting, ventilation. Same footprint and layout.</td>
+          <tr>
+            <td>Mid-Range Remodel</td>
+            <td>$8,000 &ndash; $18,000</td>
+            <td>New tile, vanity, fixtures, lighting, ventilation. Same footprint and layout.</td>
           </tr>
-          <tr style="border-bottom:1px solid #e2e8f0;">
-            <td style="padding:14px 16px;font-weight:600;">Full Gut Remodel</td>
-            <td style="padding:14px 16px;color:#c8102e;font-weight:700;">$18,000 &ndash; $40,000+</td>
-            <td style="padding:14px 16px;">Complete demo, layout changes, moved plumbing, custom tile, luxury fixtures, expanded footprint.</td>
+          <tr>
+            <td>Full Gut Remodel</td>
+            <td>$18,000 &ndash; $40,000+</td>
+            <td>Complete demo, layout changes, moved plumbing, custom tile, luxury fixtures, expanded footprint.</td>
           </tr>
         </tbody>
       </table>
@@ -262,7 +247,7 @@
     <!-- WHAT'S INCLUDED -->
     <h2>What Should Be Included in Your Bathroom Remodel Quote?</h2>
     <p>A complete, professional bathroom remodel quote in Edmond should itemize the following:</p>
-    <ul style="line-height:1.9;color:#374151;padding-left:24px;">
+    <ul>
       <li>Demolition and haul-away of existing materials</li>
       <li>Plumbing rough-in and fixture installation</li>
       <li>Electrical work (lighting, outlets, exhaust fan)</li>
@@ -293,58 +278,23 @@
     <!-- FAQ -->
     <h2>Frequently Asked Questions</h2>
 
-    <details style="border:1px solid #e2e8f0;border-radius:8px;padding:0;margin-bottom:12px;">
-      <summary style="padding:16px 20px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
-        What is the average cost of a bathroom remodel in Edmond, OK?
-      </summary>
-      <div style="padding:0 20px 16px;color:#374151;line-height:1.7;">
-        Bathroom remodel costs in Edmond range from $3,000 to $40,000+ depending on scope. A cosmetic refresh (new fixtures, vanity, paint) runs $3,000-$8,000. A mid-range remodel with new tile, vanity, and updated plumbing fixtures costs $8,000-$18,000. A full gut remodel with layout changes and luxury finishes ranges from $18,000 to $40,000+.
-      </div>
-    </details>
+    <details class="faq-item"><summary>What is the average cost of a bathroom remodel in Edmond, OK?</summary><div class="faq-a"><p>Bathroom remodel costs in Edmond range from $3,000 to $40,000+ depending on scope. A cosmetic refresh (new fixtures, vanity, paint) runs $3,000-$8,000. A mid-range remodel with new tile, vanity, and updated plumbing fixtures costs $8,000-$18,000. A full gut remodel with layout changes and luxury finishes ranges from $18,000 to $40,000+.</p></div></details>
 
-    <details style="border:1px solid #e2e8f0;border-radius:8px;padding:0;margin-bottom:12px;">
-      <summary style="padding:16px 20px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
-        Do I need a permit for a bathroom remodel in Edmond?
-      </summary>
-      <div style="padding:0 20px 16px;color:#374151;line-height:1.7;">
-        The City of Edmond requires building permits for bathroom remodels that involve plumbing modifications, electrical changes, or structural work. Cosmetic updates like painting, replacing a vanity, or swapping fixtures generally do not require a permit. A licensed contractor should handle the permit process on your behalf.
-      </div>
-    </details>
+    <details class="faq-item"><summary>Do I need a permit for a bathroom remodel in Edmond?</summary><div class="faq-a"><p>The City of Edmond requires building permits for bathroom remodels that involve plumbing modifications, electrical changes, or structural work. Cosmetic updates like painting, replacing a vanity, or swapping fixtures generally do not require a permit. A licensed contractor should handle the permit process on your behalf.</p></div></details>
 
-    <details style="border:1px solid #e2e8f0;border-radius:8px;padding:0;margin-bottom:12px;">
-      <summary style="padding:16px 20px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
-        How long does a bathroom remodel take in Edmond?
-      </summary>
-      <div style="padding:0 20px 16px;color:#374151;line-height:1.7;">
-        Most bathroom remodels in Edmond take 2-4 weeks. A cosmetic refresh can be completed in 1-2 weeks. Full gut remodels with layout changes and custom tile work typically take 4-6 weeks, depending on City of Edmond permit timelines, material lead times, and weather considerations during tornado season.
-      </div>
-    </details>
+    <details class="faq-item"><summary>How long does a bathroom remodel take in Edmond?</summary><div class="faq-a"><p>Most bathroom remodels in Edmond take 2-4 weeks. A cosmetic refresh can be completed in 1-2 weeks. Full gut remodels with layout changes and custom tile work typically take 4-6 weeks, depending on City of Edmond permit timelines, material lead times, and weather considerations during tornado season.</p></div></details>
 
-    <details style="border:1px solid #e2e8f0;border-radius:8px;padding:0;margin-bottom:12px;">
-      <summary style="padding:16px 20px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
-        Does a bathroom remodel increase home value in Edmond?
-      </summary>
-      <div style="padding:0 20px 16px;color:#374151;line-height:1.7;">
-        Yes. According to the Remodeling Cost vs. Value Report, bathroom remodels in the South-Central region return 60-70% of their cost at resale. In Edmond's housing market, updated bathrooms are consistently one of the top factors buyers evaluate. Outdated bathrooms with original 1980s-1990s finishes actively reduce offers.
-      </div>
-    </details>
+    <details class="faq-item"><summary>Does a bathroom remodel increase home value in Edmond?</summary><div class="faq-a"><p>Yes. According to the Remodeling Cost vs. Value Report, bathroom remodels in the South-Central region return 60-70% of their cost at resale. In Edmond's housing market, updated bathrooms are consistently one of the top factors buyers evaluate. Outdated bathrooms with original 1980s-1990s finishes actively reduce offers.</p></div></details>
 
-    <details style="border:1px solid #e2e8f0;border-radius:8px;padding:0;margin-bottom:12px;">
-      <summary style="padding:16px 20px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;">
-        What is the most expensive part of a bathroom remodel?
-      </summary>
-      <div style="padding:0 20px 16px;color:#374151;line-height:1.7;">
-        Labor and tile work are typically the largest expense, accounting for 40-50% of the total budget. Custom tile showers with floor-to-ceiling coverage are particularly labor-intensive. After tile, plumbing changes (moving drains or supply lines), custom cabinetry, and high-end fixtures are the next biggest cost drivers.
-      </div>
-    </details>
+    <details class="faq-item"><summary>What is the most expensive part of a bathroom remodel?</summary><div class="faq-a"><p>Labor and tile work are typically the largest expense, accounting for 40-50% of the total budget. Custom tile showers with floor-to-ceiling coverage are particularly labor-intensive. After tile, plumbing changes (moving drains or supply lines), custom cabinetry, and high-end fixtures are the next biggest cost drivers.</p></div></details>
 
     <!-- CTA -->
-    <div style="background:#f8fafc;border-radius:12px;padding:32px;text-align:center;margin-top:48px;border:1px solid #e2e8f0;">
-      <h2 style="margin-bottom:12px;">Ready to Get an Accurate Quote for Your Bathroom?</h2>
-      <p style="color:#374151;margin-bottom:24px;max-width:600px;margin-left:auto;margin-right:auto;">Every bathroom remodel in Edmond is different. The best way to get an accurate number is a free, in-home consultation where we measure your space, assess the existing condition, and discuss your goals. No pressure, no obligation -- just a honest, written quote you can plan around.</p>
-      <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
-        <a href="tel:4052813672" class="btn btn--accent" style="font-size:1.05rem;"><i class="ph ph-phone"></i> Call (405) 281-3672</a>
-        <a href="/contact.html" class="btn btn--outline" style="font-size:1.05rem;"><i class="ph ph-calendar-check"></i> Request Free Estimate</a>
+    <div class="post-cta">
+      <h2>Ready to Get an Accurate Quote for Your Bathroom?</h2>
+      <p>Every bathroom remodel in Edmond is different. The best way to get an accurate number is a free, in-home consultation where we measure your space, assess the existing condition, and discuss your goals. No pressure, no obligation -- just a honest, written quote you can plan around.</p>
+      <div class="hero-ctas">
+        <a href="tel:4052813672" class="st-btn"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.513 2.31a1.5 1.5 0 0 1-1.02 1.737l-1.183.394a.531.531 0 0 0-.316.712 11.042 11.042 0 0 0 5.567 5.567c.27.12.588-.006.712-.316l.394-1.183a1.5 1.5 0 0 1 1.737-1.02l2.31.513A1.5 1.5 0 0 1 18 14.352V15.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 7.326 13.019 13.019 0 0 1 2 4V3.5Z" clip-rule="evenodd"/></svg> Call (405) 281-3672</a>
+        <a href="/contact.html" class="st-btn st-btn--ghost"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H6a.75.75 0 0 1-.75-.75V12ZM6 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H6ZM7.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75V12ZM8 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H8ZM9.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V10ZM10 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H10ZM9.25 14a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V14ZM12 9.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V10a.75.75 0 0 0-.75-.75H12ZM11.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H12a.75.75 0 0 1-.75-.75V12ZM12 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H12ZM13.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H14a.75.75 0 0 1-.75-.75V10ZM14 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H14Z"/><path fill-rule="evenodd" d="M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z" clip-rule="evenodd"/></svg> Request Free Estimate</a>
       </div>
     </div>
 
@@ -356,7 +306,7 @@
   <div class="container">
     <div class="footer__grid">
       <div>
-        <div class="footer__brand">Edmond <span>Bathroom Remodeling</span></div>
+        <div class="footer__brand"><span class="brand-mark" aria-hidden="true">SB</span>Scissortail <span>Bath</span></div>
         <p>Professional bathroom remodeling services in Edmond, Oklahoma and the greater OKC metro. Licensed and insured.</p>
       </div>
       <div>
@@ -382,8 +332,8 @@
       <div>
         <h4>Contact</h4>
         <div class="footer__links">
-          <a href="tel:4052813672"><i class="ph ph-phone"></i> (405) 281-3672</a>
-          <a href="mailto:contact@scissortailbath.com"><i class="ph ph-envelope"></i> Email Us</a>
+          <a href="tel:4052813672"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.513 2.31a1.5 1.5 0 0 1-1.02 1.737l-1.183.394a.531.531 0 0 0-.316.712 11.042 11.042 0 0 0 5.567 5.567c.27.12.588-.006.712-.316l.394-1.183a1.5 1.5 0 0 1 1.737-1.02l2.31.513A1.5 1.5 0 0 1 18 14.352V15.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 7.326 13.019 13.019 0 0 1 2 4V3.5Z" clip-rule="evenodd"/></svg> (405) 281-3672</a>
+          <a href="mailto:contact@scissortailbath.com"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M3 4a2 2 0 0 0-2 2v1.161l8.441 4.221a1.25 1.25 0 0 0 1.118 0L19 7.162V6a2 2 0 0 0-2-2H3Z"/><path d="m19 8.839-7.77 3.885a2.75 2.75 0 0 1-2.46 0L1 8.839V14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.839Z"/></svg> Email Us</a>
           <p>Edmond, OK 73003</p>
         </div>
       </div>
@@ -398,8 +348,8 @@
 <!-- MOBILE CTA BAR -->
 <div class="mobile-cta">
   <div class="mobile-cta__inner">
-    <a href="tel:4052813672" class="mobile-cta__btn mobile-cta__btn--call"><i class="ph ph-phone"></i> Call Now</a>
-    <a href="/contact.html" class="mobile-cta__btn mobile-cta__btn--quote"><i class="ph ph-clipboard"></i> Free Quote</a>
+    <a href="tel:4052813672" class="mobile-cta__btn mobile-cta__btn--call"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.513 2.31a1.5 1.5 0 0 1-1.02 1.737l-1.183.394a.531.531 0 0 0-.316.712 11.042 11.042 0 0 0 5.567 5.567c.27.12.588-.006.712-.316l.394-1.183a1.5 1.5 0 0 1 1.737-1.02l2.31.513A1.5 1.5 0 0 1 18 14.352V15.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 7.326 13.019 13.019 0 0 1 2 4V3.5Z" clip-rule="evenodd"/></svg> Call Now</a>
+    <a href="/contact.html" class="mobile-cta__btn mobile-cta__btn--quote"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M18 5.25a2.25 2.25 0 0 0-2.012-2.238A2.25 2.25 0 0 0 13.75 1h-1.5a2.25 2.25 0 0 0-2.238 2.012c-.875.092-1.6.686-1.884 1.488H11A2.5 2.5 0 0 1 13.5 7v7h2.25A2.25 2.25 0 0 0 18 11.75v-6.5ZM12.25 2.5a.75.75 0 0 0-.75.75v.25h3v-.25a.75.75 0 0 0-.75-.75h-1.5Z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M3 6a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H3Zm6.874 4.166a.75.75 0 1 0-1.248-.832l-2.493 3.739-.853-.853a.75.75 0 0 0-1.06 1.06l1.5 1.5a.75.75 0 0 0 1.154-.114l3-4.5Z" clip-rule="evenodd"/></svg> Free Quote</a>
   </div>
 </div>
 

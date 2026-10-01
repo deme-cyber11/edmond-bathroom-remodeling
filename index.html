@@ -18,23 +18,10 @@
 <!-- Preconnect -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://unpkg.com">
-
-<!-- Preload hero CSS -->
-<link rel="preload" href="css/styles.v1.css" as="style">
 
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-<!-- Phosphor Icons (defer) -->
-<script defer src="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css" defer></script>
-<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/fill/style.css" media="print" onload="this.media='all'">
 
 <!-- Stylesheet -->
-<link rel="stylesheet" href="css/styles.v1.css">
-    <link rel="stylesheet" href="/css/style.v2.5.css">
-    <link rel="stylesheet" href="/css/site-theme.css">
 
 <!-- GA4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-D6ZBY16329"></script>
@@ -226,48 +213,41 @@
 <meta property="og:image:alt" content="Scissortail Bath">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://scissortailbath.com/images/og-card.jpg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=DM+Sans:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="/css/modern.css?v=20261001r2">
 </head>
-<body>
+<body class="st st-home">
 
 <!-- HEADER -->
-<header class="header" id="header">
+<header class="header">
   <div class="header__inner">
-    <a href="/" class="header__brand">Edmond <span>Bathroom Remodeling</span></a>
+    <a href="/" class="header__brand"><span class="brand-mark" aria-hidden="true">SB</span>Scissortail <span>Bath</span></a>
     <nav class="header__nav" id="mainNav">
       <a href="/" class="active">Home</a>
-      <a href="/services/full-bathroom-remodel.html">Services</a>
+      <div class="nav-dd"><a href="/services/full-bathroom-remodel.html" aria-haspopup="true">Services <svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/></svg></a><div class="nav-dd__menu"><a href="/services/full-bathroom-remodel.html">Full Bathroom Remodel</a><a href="/services/shower-remodel.html">Shower Remodel</a><a href="/services/bathtub-replacement.html">Bathtub Replacement</a><a href="/services/tile-installation.html">Tile Installation</a><a href="/services/vanity-upgrade.html">Vanity Upgrade</a><a href="/services/accessibility-remodel.html">Accessibility Remodel</a></div></div>
+      <div class="nav-dd"><a href="/locations/edmond.html" aria-haspopup="true">Areas <svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/></svg></a><div class="nav-dd__menu nav-dd__menu--cols"><a href="/locations/edmond.html">Edmond</a><a href="/locations/oklahoma-city.html">Oklahoma City</a><a href="/locations/yukon.html">Yukon</a><a href="/locations/mustang.html">Mustang</a><a href="/locations/piedmont.html">Piedmont</a><a href="/locations/norman.html">Norman</a><a href="/locations/moore.html">Moore</a><a href="/locations/midwest-city.html">Midwest City</a><a href="/locations/del-city.html">Del City</a><a href="/locations/el-reno.html">El Reno</a></div></div>
       <a href="/about.html">About</a>
+      <a href="/blog/">Blog</a>
       <a href="/faq.html">FAQ</a>
       <a href="/contact.html">Contact</a>
-      <a href="tel:4052813672" class="header__phone header__phone--mobile-only"><i class="ph ph-phone"></i> (405) 281-3672</a>
+      <a href="tel:4052813672" class="header__phone header__phone--mobile-only"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.513 2.31a1.5 1.5 0 0 1-1.02 1.737l-1.183.394a.531.531 0 0 0-.316.712 11.042 11.042 0 0 0 5.567 5.567c.27.12.588-.006.712-.316l.394-1.183a1.5 1.5 0 0 1 1.737-1.02l2.31.513A1.5 1.5 0 0 1 18 14.352V15.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 7.326 13.019 13.019 0 0 1 2 4V3.5Z" clip-rule="evenodd"/></svg> (405) 281-3672</a>
     </nav>
-    <a href="tel:4052813672" class="header__phone header__phone--desktop"><i class="ph ph-phone"></i> (405) 281-3672</a>
-    <button class="header__toggle" aria-label="Menu" aria-expanded="false"><i class="ph ph-list"></i></button>
+    <a href="tel:4052813672" class="header__phone header__phone--desktop"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.513 2.31a1.5 1.5 0 0 1-1.02 1.737l-1.183.394a.531.531 0 0 0-.316.712 11.042 11.042 0 0 0 5.567 5.567c.27.12.588-.006.712-.316l.394-1.183a1.5 1.5 0 0 1 1.737-1.02l2.31.513A1.5 1.5 0 0 1 18 14.352V15.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 7.326 13.019 13.019 0 0 1 2 4V3.5Z" clip-rule="evenodd"/></svg> (405) 281-3672</a>
+    <button class="header__toggle" aria-label="Menu" aria-expanded="false" aria-controls="mainNav"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd"/></svg></button>
   </div>
 </header>
 
 <!-- HERO -->
-<section class="hero">
-  <div class="hero__overlay"></div>
+<section class="hero" style="--hero-img:url(/images/site/home-hero.jpg)">
   <div class="container">
     <div class="hero__content">
-      <div class="hero__badge"><i class="ph ph-shield-check"></i> Licensed &amp; Insured</div>
+      <div class="hero__badge"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M9.661 2.237a.531.531 0 0 1 .678 0 11.947 11.947 0 0 0 7.078 2.749.5.5 0 0 1 .479.425c.069.52.104 1.05.104 1.59 0 5.162-3.26 9.563-7.834 11.256a.48.48 0 0 1-.332 0C5.26 16.564 2 12.163 2 7c0-.538.035-1.069.104-1.589a.5.5 0 0 1 .48-.425 11.947 11.947 0 0 0 7.077-2.75Zm4.196 5.954a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd"/></svg> Licensed &amp; Insured</div>
       <h1>Edmond Bathroom Remodeling — Design, Build &amp; Done Right. Free Estimates.</h1>
       <p class="hero-sub">Free estimates · Serving Edmond &amp; surrounding areas · Response within 1 business hour</p>
       <p class="hero__sub">Full bath remodels in Edmond cost $10K–$25K; master baths $20K–$50K; shower replacements $3K–$8K. Projects complete in 2–4 weeks. Licensed and insured, serving Oklahoma, Logan, and Canadian counties with fixed-price quotes and a satisfaction guarantee.</p>
       <div class="hero__ctas">
-        <a href="tel:4052813672" class="btn btn--accent"><i class="ph ph-phone"></i> Call Now</a>
-        <a href="/contact.html" class="btn btn--outline"><i class="ph ph-calendar-check"></i> Free Estimate</a>
-      </div>
-    </div>
-    <div class="hero__slider-wrap">
-      <div class="ba-slider">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%238B7355'/%3E%3Crect x='50' y='50' width='700' height='500' rx='12' fill='%237A6348'/%3E%3Crect x='150' y='100' width='200' height='350' rx='8' fill='%23695539' opacity='.6'/%3E%3Crect x='450' y='100' width='200' height='350' rx='8' fill='%23695539' opacity='.6'/%3E%3Crect x='180' y='380' width='140' height='40' rx='4' fill='%235a4a30'/%3E%3Crect x='480' y='380' width='140' height='40' rx='4' fill='%235a4a30'/%3E%3Ctext x='400' y='300' text-anchor='middle' font-family='Arial,sans-serif' font-size='56' font-weight='bold' fill='%23d4c5a9'%3EBefore%3C/text%3E%3C/svg%3E" alt="Bathroom before remodel" class="ba-slider__before" width="800" height="600">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%234A90D9'/%3E%3Crect x='50' y='50' width='700' height='500' rx='12' fill='%233A7BC8'/%3E%3Crect x='150' y='100' width='200' height='350' rx='8' fill='%23E8E8E8' opacity='.3'/%3E%3Crect x='450' y='100' width='200' height='350' rx='8' fill='%23E8E8E8' opacity='.3'/%3E%3Crect x='180' y='380' width='140' height='40' rx='4' fill='%23E8E8E8' opacity='.2'/%3E%3Crect x='480' y='380' width='140' height='40' rx='4' fill='%23E8E8E8' opacity='.2'/%3E%3Ctext x='400' y='300' text-anchor='middle' font-family='Arial,sans-serif' font-size='56' font-weight='bold' fill='%23ffffff'%3EAfter%3C/text%3E%3C/svg%3E" alt="Bathroom after remodel" class="ba-slider__after" width="800" height="600">
-        <div class="ba-slider__line"></div>
-        <div class="ba-slider__handle"><i class="ph ph-arrows-horizontal"></i></div>
-        <span class="ba-slider__label ba-slider__label--before">Before</span>
-        <span class="ba-slider__label ba-slider__label--after">After</span>
+        <a href="tel:4052813672" class="btn"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.513 2.31a1.5 1.5 0 0 1-1.02 1.737l-1.183.394a.531.531 0 0 0-.316.712 11.042 11.042 0 0 0 5.567 5.567c.27.12.588-.006.712-.316l.394-1.183a1.5 1.5 0 0 1 1.737-1.02l2.31.513A1.5 1.5 0 0 1 18 14.352V15.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 7.326 13.019 13.019 0 0 1 2 4V3.5Z" clip-rule="evenodd"/></svg> Call Now</a>
+        <a href="/contact.html" class="btn btn--outline"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H6a.75.75 0 0 1-.75-.75V12ZM6 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H6ZM7.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75V12ZM8 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H8ZM9.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V10ZM10 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H10ZM9.25 14a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V14ZM12 9.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V10a.75.75 0 0 0-.75-.75H12ZM11.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H12a.75.75 0 0 1-.75-.75V12ZM12 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H12ZM13.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H14a.75.75 0 0 1-.75-.75V10ZM14 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H14Z"/><path fill-rule="evenodd" d="M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z" clip-rule="evenodd"/></svg> Free Estimate</a>
       </div>
     </div>
   </div>
@@ -277,183 +257,173 @@
 <section class="trust-bar">
   <div class="container">
     <div class="trust-bar__grid">
-      <div class="trust-bar__item"><i class="ph ph-shield-check"></i><span>Licensed &amp; Insured</span></div>
-      <div class="trust-bar__item"><i class="ph ph-calculator"></i><span>Free Estimates</span></div>
-      <div class="trust-bar__item"><i class="ph ph-star"></i><span>5-Star Rated</span></div>
-      <div class="trust-bar__item"><i class="ph ph-clock"></i><span>Same-Day Service</span></div>
+      <div class="trust-bar__item"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M9.661 2.237a.531.531 0 0 1 .678 0 11.947 11.947 0 0 0 7.078 2.749.5.5 0 0 1 .479.425c.069.52.104 1.05.104 1.59 0 5.162-3.26 9.563-7.834 11.256a.48.48 0 0 1-.332 0C5.26 16.564 2 12.163 2 7c0-.538.035-1.069.104-1.589a.5.5 0 0 1 .48-.425 11.947 11.947 0 0 0 7.077-2.75Zm4.196 5.954a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd"/></svg><span>Licensed &amp; Insured</span></div>
+      <div class="trust-bar__item"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 1c-1.716 0-3.408.106-5.07.31C3.806 1.45 3 2.414 3 3.517V16.75A2.25 2.25 0 0 0 5.25 19h9.5A2.25 2.25 0 0 0 17 16.75V3.517c0-1.103-.806-2.068-1.93-2.207A41.403 41.403 0 0 0 10 1ZM5.99 8.75A.75.75 0 0 1 6.74 8h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm.75 1.417a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75v-.01a.75.75 0 0 0-.75-.75h-.01Zm-.75 2.916a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm.75 1.417a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75v-.01a.75.75 0 0 0-.75-.75h-.01Zm1.417-5.75a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm.75 1.417a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75v-.01a.75.75 0 0 0-.75-.75h-.01Zm-.75 2.916a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm.75 1.417a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75v-.01a.75.75 0 0 0-.75-.75h-.01Zm1.42-5.75a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm.75 1.417a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75v-.01a.75.75 0 0 0-.75-.75h-.01Zm-.75 2.916a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75v-.01Zm.75 1.417a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75v-.01a.75.75 0 0 0-.75-.75h-.01ZM6.25 3.5a.75.75 0 0 0-.75.75v1.5c0 .414.336.75.75.75h7.5a.75.75 0 0 0 .75-.75v-1.5a.75.75 0 0 0-.75-.75h-7.5Z" clip-rule="evenodd"/></svg><span>Free Estimates</span></div>
+      <div class="trust-bar__item"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd"/></svg><span>5-Star Rated</span></div>
+      <div class="trust-bar__item"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm.75-13a.75.75 0 0 0-1.5 0v5c0 .199.079.39.22.53l3 3a.75.75 0 1 0 1.06-1.06l-2.78-2.78V5Z" clip-rule="evenodd"/></svg><span>Same-Day Service</span></div>
     </div>
   </div>
 </section>
 
 <!-- SERVICES -->
-<section class="services" id="services">
+<section class="services home-first" id="services">
   <div class="container">
     <div class="section-header">
       <span class="section-header__label">Our Services</span>
       <h2>Bathroom Remodeling Services in Edmond</h2>
       <p>From quick refreshes to complete transformations, we handle every detail.</p>
-<img src="/images/niche-4.jpg" alt="Bathroom remodeling — Home" loading="lazy" style="width:100%;height:auto;border-radius:8px;margin:24px 0;display:block;">
 
     </div>
     <div class="services-grid">
       <div class="service-card">
-        <div class="service-card__icon"><i class="ph ph-bathtub"></i></div>
+        <div class="service-card__img"><img src="/images/site/svc-full.jpg" alt="" loading="lazy" width="1200" height="821"></div>
+        <div class="service-card__icon"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M4 8.5V4.75a2.75 2.75 0 0 1 5.37-.83.75.75 0 1 1-1.43.45A1.25 1.25 0 0 0 5.5 4.75V8.5H17a1 1 0 0 1 1 1v1.25a5 5 0 0 1-3 4.58V16.5a.75.75 0 0 1-1.5 0v-.75h-7v.75a.75.75 0 0 1-1.5 0v-1.17a5 5 0 0 1-3-4.58V9.5a1 1 0 0 1 1-1h1Z"/></svg></div>
         <h3>Full Bathroom Remodel</h3>
         <p>Complete gut-and-rebuild with custom design, new fixtures, tile, vanity, and lighting. Your dream bathroom from start to finish.</p>
-        <a href="/services/full-bathroom-remodel.html" class="service-card__link">Learn More <i class="ph ph-arrow-right"></i></a>
+        <a href="/services/full-bathroom-remodel.html" class="service-card__link">Learn More <svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"/></svg></a>
       </div>
       <div class="service-card">
-        <div class="service-card__icon"><i class="ph ph-shower"></i></div>
+        <div class="service-card__img"><img src="/images/site/svc-shower.jpg" alt="" loading="lazy" width="1200" height="821"></div>
+        <div class="service-card__icon"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 2a.75.75 0 0 1 .75.75v1.3A6 6 0 0 1 16 10H4a6 6 0 0 1 5.25-5.95v-1.3A.75.75 0 0 1 10 2Z"/><circle cx="6" cy="13" r="1.1"/><circle cx="10" cy="13" r="1.1"/><circle cx="14" cy="13" r="1.1"/><circle cx="8" cy="16.5" r="1.1"/><circle cx="12" cy="16.5" r="1.1"/></svg></div>
         <h3>Shower Remodel</h3>
         <p>Custom tile showers, frameless glass enclosures, rain heads, and modern designs. Upgrade your daily routine.</p>
-        <a href="/services/shower-remodel.html" class="service-card__link">Learn More <i class="ph ph-arrow-right"></i></a>
+        <a href="/services/shower-remodel.html" class="service-card__link">Learn More <svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"/></svg></a>
       </div>
       <div class="service-card">
-        <div class="service-card__icon"><i class="ph ph-bathtub"></i></div>
+        <div class="service-card__img"><img src="/images/site/svc-tub.jpg" alt="" loading="lazy" width="1200" height="821"></div>
+        <div class="service-card__icon"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M4 8.5V4.75a2.75 2.75 0 0 1 5.37-.83.75.75 0 1 1-1.43.45A1.25 1.25 0 0 0 5.5 4.75V8.5H17a1 1 0 0 1 1 1v1.25a5 5 0 0 1-3 4.58V16.5a.75.75 0 0 1-1.5 0v-.75h-7v.75a.75.75 0 0 1-1.5 0v-1.17a5 5 0 0 1-3-4.58V9.5a1 1 0 0 1 1-1h1Z"/></svg></div>
         <h3>Bathtub Replacement</h3>
         <p>Soaking tubs, freestanding tubs, and tub-to-shower conversions. Installed with precision and care.</p>
-        <a href="/services/bathtub-replacement.html" class="service-card__link">Learn More <i class="ph ph-arrow-right"></i></a>
+        <a href="/services/bathtub-replacement.html" class="service-card__link">Learn More <svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"/></svg></a>
       </div>
       <div class="service-card">
-        <div class="service-card__icon"><i class="ph ph-squares-four"></i></div>
+        <div class="service-card__img"><img src="/images/site/svc-tile.jpg" alt="" loading="lazy" width="1200" height="821"></div>
+        <div class="service-card__icon"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><rect x="2.5" y="2.5" width="6.5" height="6.5" rx="1.5"/><rect x="11" y="2.5" width="6.5" height="6.5" rx="1.5"/><rect x="2.5" y="11" width="6.5" height="6.5" rx="1.5"/><rect x="11" y="11" width="6.5" height="6.5" rx="1.5"/></svg></div>
         <h3>Tile Installation</h3>
         <p>Floor-to-ceiling tile work including subway, mosaic, marble, and porcelain. Expert installation that lasts.</p>
-        <a href="/services/tile-installation.html" class="service-card__link">Learn More <i class="ph ph-arrow-right"></i></a>
+        <a href="/services/tile-installation.html" class="service-card__link">Learn More <svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"/></svg></a>
       </div>
       <div class="service-card">
-        <div class="service-card__icon"><i class="ph ph-mirror"></i></div>
+        <div class="service-card__img"><img src="/images/site/svc-vanity.jpg" alt="" loading="lazy" width="1200" height="821"></div>
+        <div class="service-card__icon"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 1.5c3.04 0 5.5 2.91 5.5 6.5s-2.46 6.5-5.5 6.5S4.5 11.59 4.5 8 6.96 1.5 10 1.5Zm-1.9 3.1a.75.75 0 0 0-1.06.06A4.9 4.9 0 0 0 6 7.6a.75.75 0 0 0 1.5 0c0-.73.24-1.43.66-1.94a.75.75 0 0 0-.06-1.06Z" clip-rule="evenodd"/><path d="M9.25 14.9h1.5V17h2.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5h2.5v-2.1Z"/></svg></div>
         <h3>Vanity Upgrade</h3>
         <p>Custom vanities, double sinks, countertops, and storage solutions. Elevate your bathroom's style and function.</p>
-        <a href="/services/vanity-upgrade.html" class="service-card__link">Learn More <i class="ph ph-arrow-right"></i></a>
+        <a href="/services/vanity-upgrade.html" class="service-card__link">Learn More <svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"/></svg></a>
       </div>
       <div class="service-card">
-        <div class="service-card__icon"><i class="ph ph-wheelchair"></i></div>
+        <div class="service-card__img"><img src="/images/site/svc-access.jpg" alt="" loading="lazy" width="1200" height="821"></div>
+        <div class="service-card__icon"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><circle cx="9.5" cy="3.25" r="1.75"/><path d="M8.25 6.25a1 1 0 0 1 2 0v2.5h3a.75.75 0 0 1 0 1.5h-3v1.25h3.6a1 1 0 0 1 .95.68l1.35 4.06a.75.75 0 1 1-1.42.48l-1.2-3.72H9.25a1 1 0 0 1-1-1V6.25Z"/><path d="M6.04 8.9a.75.75 0 0 1 .4.98 4.25 4.25 0 0 0 6.06 5.32.75.75 0 1 1 .77 1.29A5.75 5.75 0 0 1 5.06 9.3a.75.75 0 0 1 .98-.4Z"/></svg></div>
         <h3>Accessibility Remodel</h3>
         <p>ADA-compliant designs with grab bars, walk-in showers, comfort-height toilets, and barrier-free entries.</p>
-        <a href="/services/accessibility-remodel.html" class="service-card__link">Learn More <i class="ph ph-arrow-right"></i></a>
+        <a href="/services/accessibility-remodel.html" class="service-card__link">Learn More <svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"/></svg></a>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ABOUT -->
-<section class="about" id="about">
+<section class="about band--soft" id="about">
   <div class="container">
     <div class="about__img">
-      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='450' viewBox='0 0 600 450'%3E%3Crect width='600' height='450' fill='%232c3e50'/%3E%3Crect x='40' y='40' width='520' height='370' rx='12' fill='%2334495e'/%3E%3Crect x='80' y='100' width='200' height='250' rx='8' fill='%23c0392b' opacity='.2'/%3E%3Crect x='320' y='100' width='200' height='250' rx='8' fill='%23c0392b' opacity='.2'/%3E%3Ctext x='300' y='80' text-anchor='middle' font-family='Arial,sans-serif' font-size='24' font-weight='bold' fill='%23ecf0f1'%3EOur Work%3C/text%3E%3Ctext x='180' y='235' text-anchor='middle' font-family='Arial,sans-serif' font-size='16' fill='%23ecf0f1'%3EBefore%3C/text%3E%3Ctext x='420' y='235' text-anchor='middle' font-family='Arial,sans-serif' font-size='16' fill='%23ecf0f1'%3EAfter%3C/text%3E%3C/svg%3E" alt="Scissortail Bath team at work" width="600" height="450">
+      <img src="/images/niche-4.jpg" alt="Scissortail Bath team at work" width="1024" height="1024" loading="lazy">
     </div>
     <div>
       <h2>Your Bathroom Should Feel Like Yours — Not Like the Previous Owner's</h2>
       <p>Most bathroom remodels in Edmond get triggered by the same breaking point: you've tolerated the pink tile, the broken grout, the lighting that makes everyone look sick — until one day you just can't anymore.</p>
       <p>That's not vanity. A bathroom that doesn't work — poor ventilation trapping moisture, inadequate storage creating daily chaos, a shower that leaks onto the subfloor, outdated fixtures that scream 1994 — is a real functional problem. And it compounds. Moisture behind failing tile leads to mold. A leaking shower pan leads to subfloor damage. Small problems become expensive structural problems when they're ignored long enough.</p>
       <p>More than that: you spend real time in your bathroom every day. A space that frustrates you every morning has a quality-of-life cost that doesn't show up on a balance sheet but you feel it constantly.</p>
-      <a href="/contact.html" class="btn btn--accent"><i class="ph ph-calendar-check"></i> Get Free Estimate</a>
+      <a href="/contact.html" class="btn"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H6a.75.75 0 0 1-.75-.75V12ZM6 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H6ZM7.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75V12ZM8 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H8ZM9.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V10ZM10 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H10ZM9.25 14a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V14ZM12 9.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V10a.75.75 0 0 0-.75-.75H12ZM11.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H12a.75.75 0 0 1-.75-.75V12ZM12 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H12ZM13.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H14a.75.75 0 0 1-.75-.75V10ZM14 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H14Z"/><path fill-rule="evenodd" d="M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z" clip-rule="evenodd"/></svg> Get Free Estimate</a>
     </div>
   </div>
 </section>
 
 <!-- AGITATE -->
-<section class="section" style="background:#fff;">
+<section class="section band">
   <div class="container">
     <div class="section-header">
       <h2>What Living With a Bad Bathroom Actually Costs</h2>
       <p>The "I'll do it someday" calculation always looks wrong in hindsight:</p>
     </div>
-    <ul style="max-width:800px;margin:0 auto;font-size:1.05rem;line-height:1.8;color:#374151;list-style:none;padding:0;">
-      <li style="padding:16px 0;border-bottom:1px solid #e2e8f0;"><strong>Mold and moisture damage:</strong> A bathroom with poor ventilation or failing tile creates conditions for mold behind walls. Remediation once it's established runs $2,000–$8,000 — on top of the remodel cost you were going to do anyway.</li>
-      <li style="padding:16px 0;border-bottom:1px solid #e2e8f0;"><strong>Subfloor and structural damage:</strong> A leaking shower pan or failing caulk lets water reach the subfloor. Subfloor replacement adds $1,500–$4,000 to a remodel. Caught early, it's a simple fix during the remodel.</li>
-      <li style="padding:16px 0;border-bottom:1px solid #e2e8f0;"><strong>Resale value:</strong> Updated bathrooms are consistently the highest-ROI home improvement in Edmond's market. Remodeling Magazine's Cost vs. Value report shows bathroom remodels returning 60–70% of cost at resale in the South-Central region — and unmoved outdated bathrooms actively drag down offers.</li>
-      <li style="padding:16px 0;"><strong>The daily tax:</strong> You pay it every morning. A bathroom that works for you is worth more than most homeowners calculate when they're deciding whether to wait another year.</li>
+    <ul class="pain-grid">
+      <li><strong>Mold and moisture damage:</strong> A bathroom with poor ventilation or failing tile creates conditions for mold behind walls. Remediation once it's established runs $2,000–$8,000 — on top of the remodel cost you were going to do anyway.</li>
+      <li><strong>Subfloor and structural damage:</strong> A leaking shower pan or failing caulk lets water reach the subfloor. Subfloor replacement adds $1,500–$4,000 to a remodel. Caught early, it's a simple fix during the remodel.</li>
+      <li><strong>Resale value:</strong> Updated bathrooms are consistently the highest-ROI home improvement in Edmond's market. Remodeling Magazine's Cost vs. Value report shows bathroom remodels returning 60–70% of cost at resale in the South-Central region — and unmoved outdated bathrooms actively drag down offers.</li>
+      <li><strong>The daily tax:</strong> You pay it every morning. A bathroom that works for you is worth more than most homeowners calculate when they're deciding whether to wait another year.</li>
     </ul>
   </div>
 </section>
 
 <!-- PROCESS -->
-<section class="section" style="background:#f8fafc;">
+<section class="section band--dark" id="process">
   <div class="container">
     <div class="section-header">
       <h2>What to Expect When You Work With Us — Start to Finish</h2>
       <p>The reason most Edmond homeowners delay a bathroom remodel isn't budget — it's uncertainty. Here's the honest, step-by-step reality:</p>
     </div>
-    <div style="max-width:800px;margin:0 auto;">
-      <div style="display:flex;gap:20px;align-items:flex-start;padding:20px 0;border-bottom:1px solid #e2e8f0;">
-        <div style="flex-shrink:0;width:40px;height:40px;background:var(--accent,#c8102e);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.1rem;">1</div>
-        <div style="color:#374151;line-height:1.7;"><strong>Free design consultation.</strong> We come to your home in Edmond, measure your space, look at the existing condition, and talk through what you want. We don't bring a catalog and push you toward high-margin finishes. We ask what you hate about the current bathroom and what you want to feel walking out of a shower.</div>
-      </div>
-      <div style="display:flex;gap:20px;align-items:flex-start;padding:20px 0;border-bottom:1px solid #e2e8f0;">
-        <div style="flex-shrink:0;width:40px;height:40px;background:var(--accent,#c8102e);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.1rem;">2</div>
-        <div style="color:#374151;line-height:1.7;"><strong>Written scope and fixed-price quote.</strong> Everything itemized: demo, plumbing rough-in if needed, tile, fixtures, vanity, lighting, ventilation, labor. A fixed-price quote means no surprise invoices. What we quote is what you pay, barring something hidden in the walls that neither of us could see.</div>
-      </div>
-      <div style="display:flex;gap:20px;align-items:flex-start;padding:20px 0;border-bottom:1px solid #e2e8f0;">
-        <div style="flex-shrink:0;width:40px;height:40px;background:var(--accent,#c8102e);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.1rem;">3</div>
-        <div style="color:#374151;line-height:1.7;"><strong>Scheduled start, protected timeline.</strong> We give you a start date and a projected completion date. Most Edmond bathroom remodels complete in 10–21 days depending on scope. We don't start three jobs at once and disappear from yours for a week.</div>
-      </div>
-      <div style="display:flex;gap:20px;align-items:flex-start;padding:20px 0;border-bottom:1px solid #e2e8f0;">
-        <div style="flex-shrink:0;width:40px;height:40px;background:var(--accent,#c8102e);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.1rem;">4</div>
-        <div style="color:#374151;line-height:1.7;"><strong>Daily communication.</strong> You get a daily progress update — what was done, what's next, if anything needs a decision from you. You're never wondering what's happening in your own home.</div>
-      </div>
-      <div style="display:flex;gap:20px;align-items:flex-start;padding:20px 0;">
-        <div style="flex-shrink:0;width:40px;height:40px;background:var(--accent,#c8102e);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.1rem;">5</div>
-        <div style="color:#374151;line-height:1.7;"><strong>Final walkthrough.</strong> Before we consider the job complete, you walk through with us. Anything that doesn't meet your expectation gets addressed before we invoice. Not after.</div>
-      </div>
-    </div>
+    <ol class="steps">
+      <li class="step"><span class="step__num">1</span><div class="step__body"><strong>Free design consultation.</strong> We come to your home in Edmond, measure your space, look at the existing condition, and talk through what you want. We don't bring a catalog and push you toward high-margin finishes. We ask what you hate about the current bathroom and what you want to feel walking out of a shower.</div></li>
+      <li class="step"><span class="step__num">2</span><div class="step__body"><strong>Written scope and fixed-price quote.</strong> Everything itemized: demo, plumbing rough-in if needed, tile, fixtures, vanity, lighting, ventilation, labor. A fixed-price quote means no surprise invoices. What we quote is what you pay, barring something hidden in the walls that neither of us could see.</div></li>
+      <li class="step"><span class="step__num">3</span><div class="step__body"><strong>Scheduled start, protected timeline.</strong> We give you a start date and a projected completion date. Most Edmond bathroom remodels complete in 10–21 days depending on scope. We don't start three jobs at once and disappear from yours for a week.</div></li>
+      <li class="step"><span class="step__num">4</span><div class="step__body"><strong>Daily communication.</strong> You get a daily progress update — what was done, what's next, if anything needs a decision from you. You're never wondering what's happening in your own home.</div></li>
+      <li class="step"><span class="step__num">5</span><div class="step__body"><strong>Final walkthrough.</strong> Before we consider the job complete, you walk through with us. Anything that doesn't meet your expectation gets addressed before we invoice. Not after.</div></li>
+    </ol>
   </div>
 </section>
 
 <!-- TESTIMONIALS -->
-<section class="section" style="background:#f8fafc;">
+<section class="section band--soft">
 <div class="container">
   <div class="section-header">
     <h2>What Homeowners Are Saying</h2>
     <p>Real experiences from customers we've served</p>
   </div>
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:32px;">
-    <div style="background:white;border-radius:12px;padding:28px;border:1px solid #e2e8f0;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
-      <p style="font-style:italic;color:#374151;line-height:1.7;margin-bottom:16px;">"We got three bids. Two were vague — 'tile and fixtures, roughly $X.' These guys gave us a line-item quote with everything broken out. They found mold behind the shower during demo, told us immediately with photos, and fixed it without adding a surprise charge because it was within the scope discussion we'd already had. The bathroom is exactly what we wanted."</p>
-      <p style="font-weight:600;color:var(--primary);">— Jennifer &amp; Mark H. &nbsp;<span style="color:#64748b;font-weight:400;">Coffee Creek</span></p>
+  <div class="quote-grid">
+    <div class="quote-card">
+      <p class="quote-card__text">"We got three bids. Two were vague — 'tile and fixtures, roughly $X.' These guys gave us a line-item quote with everything broken out. They found mold behind the shower during demo, told us immediately with photos, and fixed it without adding a surprise charge because it was within the scope discussion we'd already had. The bathroom is exactly what we wanted."</p>
+      <p class="quote-card__by">— Jennifer &amp; Mark H. &nbsp;<span>Coffee Creek</span></p>
     </div>
-    <div style="background:white;border-radius:12px;padding:28px;border:1px solid #e2e8f0;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
-      <p style="font-style:italic;color:#374151;line-height:1.7;margin-bottom:16px;">"I was convinced the remodel would take six weeks and destroy my life. It took 14 days. They texted me a daily update. The tile work is perfect. I walk into that bathroom every morning and it still surprises me that it's mine."</p>
-      <p style="font-weight:600;color:var(--primary);">— Angela T. &nbsp;<span style="color:#64748b;font-weight:400;">Edmond</span></p>
+    <div class="quote-card">
+      <p class="quote-card__text">"I was convinced the remodel would take six weeks and destroy my life. It took 14 days. They texted me a daily update. The tile work is perfect. I walk into that bathroom every morning and it still surprises me that it's mine."</p>
+      <p class="quote-card__by">— Angela T. &nbsp;<span>Edmond</span></p>
     </div>
-    <div style="background:white;border-radius:12px;padding:28px;border:1px solid #e2e8f0;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
-      <p style="font-style:italic;color:#374151;line-height:1.7;margin-bottom:16px;">"Our 1970s master bath hadn't been touched since it was built. They transformed it — double vanity, frameless shower, heated floor. Came in on the quoted price. I've sent three neighbors their number already."</p>
-      <p style="font-weight:600;color:var(--primary);">— Robert D. &nbsp;<span style="color:#64748b;font-weight:400;">Deer Creek</span></p>
+    <div class="quote-card">
+      <p class="quote-card__text">"Our 1970s master bath hadn't been touched since it was built. They transformed it — double vanity, frameless shower, heated floor. Came in on the quoted price. I've sent three neighbors their number already."</p>
+      <p class="quote-card__by">— Robert D. &nbsp;<span>Deer Creek</span></p>
     </div>
   </div>
 </div>
 </section>
 
 <!-- BEFORE/AFTER GALLERY -->
-<section class="section" style="background:white;">
+<section class="section band">
   <div class="container">
     <div class="section-header">
       <h2>Our Work &mdash; Before &amp; After</h2>
       <p>Real results from real Edmond bathroom remodeling projects</p>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:32px;margin-top:32px;">
+    <div class="ba-grid">
 
-    <div style="border-radius:12px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,0.12);">
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;">
-        <div style="position:relative;">
-          <img src="images/before-after/ba1-before.jpg" alt="Before bathroom remodeling in Edmond" style="width:100%;height:220px;object-fit:cover;display:block;" loading="lazy" width="400" height="220">
-          <span style="position:absolute;top:8px;left:8px;background:rgba(0,0,0,0.7);color:white;font-size:0.75rem;font-weight:700;padding:3px 10px;border-radius:4px;letter-spacing:0.05em;">BEFORE</span>
+    <div class="ba-card">
+      <div class="ba-pair">
+        <div class="ba-fig">
+          <img src="/images/before-after/ba1-before.jpg" alt="Before bathroom remodeling in Edmond" loading="lazy" width="400" height="220">
+          <span class="ba-tag">BEFORE</span>
         </div>
-        <div style="position:relative;">
-          <img src="images/before-after/ba1-after.jpg" alt="After bathroom remodeling in Edmond" style="width:100%;height:220px;object-fit:cover;display:block;" loading="lazy" width="400" height="220">
-          <span style="position:absolute;top:8px;left:8px;background:var(--accent,#c8102e);color:white;font-size:0.75rem;font-weight:700;padding:3px 10px;border-radius:4px;letter-spacing:0.05em;">AFTER</span>
+        <div class="ba-fig">
+          <img src="/images/before-after/ba1-after.jpg" alt="After bathroom remodeling in Edmond" loading="lazy" width="400" height="220">
+          <span class="ba-tag ba-tag--after">AFTER</span>
         </div>
       </div>
     </div>
-    <div style="border-radius:12px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,0.12);">
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;">
-        <div style="position:relative;">
-          <img src="images/before-after/ba2-before.jpg" alt="Before bathroom remodeling in Edmond" style="width:100%;height:220px;object-fit:cover;display:block;" loading="lazy" width="400" height="220">
-          <span style="position:absolute;top:8px;left:8px;background:rgba(0,0,0,0.7);color:white;font-size:0.75rem;font-weight:700;padding:3px 10px;border-radius:4px;letter-spacing:0.05em;">BEFORE</span>
+    <div class="ba-card">
+      <div class="ba-pair">
+        <div class="ba-fig">
+          <img src="/images/before-after/ba2-before.jpg" alt="Before bathroom remodeling in Edmond" loading="lazy" width="400" height="220">
+          <span class="ba-tag">BEFORE</span>
         </div>
-        <div style="position:relative;">
-          <img src="images/before-after/ba2-after.jpg" alt="After bathroom remodeling in Edmond" style="width:100%;height:220px;object-fit:cover;display:block;" loading="lazy" width="400" height="220">
-          <span style="position:absolute;top:8px;left:8px;background:var(--accent,#c8102e);color:white;font-size:0.75rem;font-weight:700;padding:3px 10px;border-radius:4px;letter-spacing:0.05em;">AFTER</span>
+        <div class="ba-fig">
+          <img src="/images/before-after/ba2-after.jpg" alt="After bathroom remodeling in Edmond" loading="lazy" width="400" height="220">
+          <span class="ba-tag ba-tag--after">AFTER</span>
         </div>
       </div>
     </div>
@@ -463,32 +433,32 @@
 
 
 <!-- PRICING TRANSPARENCY -->
-<section class="section" style="background:white;">
+<section class="section band--soft">
   <div class="container">
     <div class="section-header">
       <h2>What Does a Bathroom Remodel Cost in Edmond?</h2>
       <p>The honest answer depends on scope. Here are the real ranges, with what drives them:</p>
     </div>
-    <div style="max-width:800px;margin:0 auto;display:grid;gap:20px;">
-      <div style="background:#f8fafc;border-radius:12px;padding:28px;border:1px solid #e2e8f0;">
-        <h3 style="margin-bottom:8px;">Cosmetic Refresh</h3>
-        <p style="font-size:1.2rem;font-weight:700;color:var(--accent,#c8102e);margin-bottom:8px;">$3,000–$8,000</p>
-        <p style="color:#374151;">New fixtures, vanity, paint, lighting — no tile, no layout change. Best for bathrooms in structurally sound condition where you mainly hate the aesthetics.</p>
+    <div class="price-grid">
+      <div class="price-card">
+        <h3>Cosmetic Refresh</h3>
+        <p class="price-card__price">$3,000–$8,000</p>
+        <p>New fixtures, vanity, paint, lighting — no tile, no layout change. Best for bathrooms in structurally sound condition where you mainly hate the aesthetics.</p>
       </div>
-      <div style="background:#f8fafc;border-radius:12px;padding:28px;border:1px solid #e2e8f0;">
-        <h3 style="margin-bottom:8px;">Mid-Range Remodel</h3>
-        <p style="font-size:1.2rem;font-weight:700;color:var(--accent,#c8102e);margin-bottom:8px;">$8,000–$18,000</p>
-        <p style="color:#374151;">New tile throughout, new vanity, updated plumbing fixtures, improved lighting and ventilation — same layout. The most common full transformation without moving walls or plumbing.</p>
+      <div class="price-card">
+        <h3>Mid-Range Remodel</h3>
+        <p class="price-card__price">$8,000–$18,000</p>
+        <p>New tile throughout, new vanity, updated plumbing fixtures, improved lighting and ventilation — same layout. The most common full transformation without moving walls or plumbing.</p>
       </div>
-      <div style="background:#f8fafc;border-radius:12px;padding:28px;border:1px solid #e2e8f0;">
-        <h3 style="margin-bottom:8px;">Full Gut Remodel</h3>
-        <p style="font-size:1.2rem;font-weight:700;color:var(--accent,#c8102e);margin-bottom:8px;">$18,000–$40,000+</p>
-        <p style="color:#374151;">Layout changes, moved plumbing, custom tile, full fixture replacement, potentially expanded footprint. For bathrooms where the layout itself is the problem, or primary bathrooms being brought to a truly luxury standard.</p>
+      <div class="price-card">
+        <h3>Full Gut Remodel</h3>
+        <p class="price-card__price">$18,000–$40,000+</p>
+        <p>Layout changes, moved plumbing, custom tile, full fixture replacement, potentially expanded footprint. For bathrooms where the layout itself is the problem, or primary bathrooms being brought to a truly luxury standard.</p>
       </div>
-      <div style="background:#fff8f0;border-radius:12px;padding:20px 28px;border-left:4px solid var(--accent,#c8102e);">
-        <p style="color:#374151;"><strong>What's NOT in these numbers:</strong> Structural surprises — mold, subfloor damage, outdated wiring. We tell you the realistic probability of finding these during the consultation so you can budget for contingency appropriately. Most mid-range remodels hit zero surprises. Older homes have higher probability.</p>
       </div>
-    </div>
+    <div class="price-note">
+        <p><strong>What's NOT in these numbers:</strong> Structural surprises — mold, subfloor damage, outdated wiring. We tell you the realistic probability of finding these during the consultation so you can budget for contingency appropriately. Most mid-range remodels hit zero surprises. Older homes have higher probability.</p>
+      </div>
   </div>
 </section>
 
@@ -501,70 +471,34 @@
       <p>Quick answers to common bathroom remodeling questions.</p>
     </div>
     <div class="faq-list">
-      <div class="faq-item">
-        <button class="faq-item__q">How much does a bathroom remodel cost in Edmond? <i class="ph ph-caret-down"></i></button>
-        <div class="faq-item__a"><div class="faq-item__a-inner">Full bathroom remodels in Edmond typically cost $10,000–$25,000. Master baths run $20,000–$50,000. Shower replacements cost $3,000–$8,000. Cosmetic refreshes without tile start around $3,000–$6,000. We provide free in-home estimates with fully itemized fixed-price quotes.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-item__q">How long does a bathroom remodel take in Edmond? <i class="ph ph-caret-down"></i></button>
-        <div class="faq-item__a"><div class="faq-item__a-inner">Most Edmond bathroom remodels complete in 2–4 weeks. Cosmetic updates without tile take 1–2 weeks. Full gut-and-remodel projects with plumbing changes take 3–5 weeks. We give you a written start and completion date and protect that timeline.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-item__q">How long will I be without a bathroom? <i class="ph ph-caret-down"></i></button>
-        <div class="faq-item__a"><div class="faq-item__a-inner">Active demo and wet work — where the bathroom is genuinely unusable — typically runs 3–5 days. After that it's a working space being finished around you. For single-bathroom homes, we sequence work to minimize disruption and communicate the daily schedule in advance.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-item__q">Do you handle permits with the City of Edmond? <i class="ph ph-caret-down"></i></button>
-        <div class="faq-item__a"><div class="faq-item__a-inner">Yes — we manage all City of Edmond building permits. Oklahoma requires permits for plumbing modifications, electrical work, and structural changes. Permit costs are included in your written quote. We schedule and manage all required inspections.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-item__q">Can you convert a tub to a walk-in shower? <i class="ph ph-caret-down"></i></button>
-        <div class="faq-item__a"><div class="faq-item__a-inner">Absolutely — tub-to-shower conversions are one of our most popular projects. We remove the tub, prep the pan and waterproofing membrane, install custom tile, and add a glass enclosure. Shower replacements typically cost $3,000–$8,000 depending on size and materials. Curbless barrier-free designs are also available.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-item__q">How do I know the quote won't balloon? <i class="ph ph-caret-down"></i></button>
-        <div class="faq-item__a"><div class="faq-item__a-inner">We give fixed-price quotes. The only cost additions are structural discoveries hidden inside walls or scope changes you request mid-project. Both require your written approval before any additional work or cost is incurred. No verbal add-ons, no surprise invoices.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-item__q">Do you serve Oklahoma City, Yukon, and Mustang? <i class="ph ph-caret-down"></i></button>
-        <div class="faq-item__a"><div class="faq-item__a-inner">Yes — we serve all of the OKC metro including Edmond, Oklahoma City, Yukon, Mustang, and Piedmont in Canadian County; Norman and Moore in Cleveland County; Midwest City and Del City in Oklahoma County. We cover Oklahoma, Logan, and Canadian counties.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-item__q">How does Oklahoma's climate affect bathroom remodeling? <i class="ph ph-caret-down"></i></button>
-        <div class="faq-item__a"><div class="faq-item__a-inner">Oklahoma's humidity and freeze-thaw cycles make moisture management critical. Ventilation isn't optional — it's structural protection. A new bathroom with an undersized exhaust fan in Oklahoma's climate will develop moisture problems within two years. Every bathroom we remodel gets properly sized exhaust ventilation installed or verified as part of the project scope.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-item__q">What if I don't know what I want design-wise? <i class="ph ph-caret-down"></i></button>
-        <div class="faq-item__a"><div class="faq-item__a-inner">Our consultation is built for this. We ask about what you hate about what you have, what bathrooms you've seen that you liked (photos from Pinterest or Instagram are perfect), and what your daily routine actually needs. We guide you through finish selection — you don't need to come in with a design degree.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-item__q">Will the tile be installed correctly? <i class="ph ph-caret-down"></i></button>
-        <div class="faq-item__a"><div class="faq-item__a-inner">We're specific about this because it matters: no lippage (edges flush to each other), proper substrate prep before tile, correct grout joint sizing, sealed grout. We show you examples of our actual installed tile work before you commit. Proper waterproofing in wet areas is non-negotiable — it's what prevents mold remediation costs down the road.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-item__q">Do you work on older Edmond homes with dated plumbing? <i class="ph ph-caret-down"></i></button>
-        <div class="faq-item__a"><div class="faq-item__a-inner">Yes — many Edmond homes built in the 1980s–1990s have cast iron drain lines, galvanized supply lines, and undersized ventilation. We assess all of this during the free consultation and tell you what we find before quoting. If plumbing requires upgrading, we scope it clearly — no surprises during demo.</div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-item__q">What is the ROI on a bathroom remodel in Edmond? <i class="ph ph-caret-down"></i></button>
-        <div class="faq-item__a"><div class="faq-item__a-inner">Bathroom remodels consistently rank among the highest-ROI home improvements in the OKC metro. Mid-range remodels typically return 60–70% of cost at resale per Remodeling Magazine's Cost vs. Value data for the South-Central region. Updated bathrooms support asking price and accelerate sales in Edmond's competitive market.</div></div>
-      </div>
+      <details class="faq-item"><summary>How much does a bathroom remodel cost in Edmond?</summary><div class="faq-a"><p>Full bathroom remodels in Edmond typically cost $10,000–$25,000. Master baths run $20,000–$50,000. Shower replacements cost $3,000–$8,000. Cosmetic refreshes without tile start around $3,000–$6,000. We provide free in-home estimates with fully itemized fixed-price quotes.</p></div></details>
+      <details class="faq-item"><summary>How long does a bathroom remodel take in Edmond?</summary><div class="faq-a"><p>Most Edmond bathroom remodels complete in 2–4 weeks. Cosmetic updates without tile take 1–2 weeks. Full gut-and-remodel projects with plumbing changes take 3–5 weeks. We give you a written start and completion date and protect that timeline.</p></div></details>
+      <details class="faq-item"><summary>How long will I be without a bathroom?</summary><div class="faq-a"><p>Active demo and wet work — where the bathroom is genuinely unusable — typically runs 3–5 days. After that it's a working space being finished around you. For single-bathroom homes, we sequence work to minimize disruption and communicate the daily schedule in advance.</p></div></details>
+      <details class="faq-item"><summary>Do you handle permits with the City of Edmond?</summary><div class="faq-a"><p>Yes — we manage all City of Edmond building permits. Oklahoma requires permits for plumbing modifications, electrical work, and structural changes. Permit costs are included in your written quote. We schedule and manage all required inspections.</p></div></details>
+      <details class="faq-item"><summary>Can you convert a tub to a walk-in shower?</summary><div class="faq-a"><p>Absolutely — tub-to-shower conversions are one of our most popular projects. We remove the tub, prep the pan and waterproofing membrane, install custom tile, and add a glass enclosure. Shower replacements typically cost $3,000–$8,000 depending on size and materials. Curbless barrier-free designs are also available.</p></div></details>
+      <details class="faq-item"><summary>How do I know the quote won't balloon?</summary><div class="faq-a"><p>We give fixed-price quotes. The only cost additions are structural discoveries hidden inside walls or scope changes you request mid-project. Both require your written approval before any additional work or cost is incurred. No verbal add-ons, no surprise invoices.</p></div></details>
+      <details class="faq-item"><summary>Do you serve Oklahoma City, Yukon, and Mustang?</summary><div class="faq-a"><p>Yes — we serve all of the OKC metro including Edmond, Oklahoma City, Yukon, Mustang, and Piedmont in Canadian County; Norman and Moore in Cleveland County; Midwest City and Del City in Oklahoma County. We cover Oklahoma, Logan, and Canadian counties.</p></div></details>
+      <details class="faq-item"><summary>How does Oklahoma's climate affect bathroom remodeling?</summary><div class="faq-a"><p>Oklahoma's humidity and freeze-thaw cycles make moisture management critical. Ventilation isn't optional — it's structural protection. A new bathroom with an undersized exhaust fan in Oklahoma's climate will develop moisture problems within two years. Every bathroom we remodel gets properly sized exhaust ventilation installed or verified as part of the project scope.</p></div></details>
+      <details class="faq-item"><summary>What if I don't know what I want design-wise?</summary><div class="faq-a"><p>Our consultation is built for this. We ask about what you hate about what you have, what bathrooms you've seen that you liked (photos from Pinterest or Instagram are perfect), and what your daily routine actually needs. We guide you through finish selection — you don't need to come in with a design degree.</p></div></details>
+      <details class="faq-item"><summary>Will the tile be installed correctly?</summary><div class="faq-a"><p>We're specific about this because it matters: no lippage (edges flush to each other), proper substrate prep before tile, correct grout joint sizing, sealed grout. We show you examples of our actual installed tile work before you commit. Proper waterproofing in wet areas is non-negotiable — it's what prevents mold remediation costs down the road.</p></div></details>
+      <details class="faq-item"><summary>Do you work on older Edmond homes with dated plumbing?</summary><div class="faq-a"><p>Yes — many Edmond homes built in the 1980s–1990s have cast iron drain lines, galvanized supply lines, and undersized ventilation. We assess all of this during the free consultation and tell you what we find before quoting. If plumbing requires upgrading, we scope it clearly — no surprises during demo.</p></div></details>
+      <details class="faq-item"><summary>What is the ROI on a bathroom remodel in Edmond?</summary><div class="faq-a"><p>Bathroom remodels consistently rank among the highest-ROI home improvements in the OKC metro. Mid-range remodels typically return 60–70% of cost at resale per Remodeling Magazine's Cost vs. Value data for the South-Central region. Updated bathrooms support asking price and accelerate sales in Edmond's competitive market.</p></div></details>
     </div>
   </div>
 </section>
 
 <!-- CONTACT -->
-<section class="contact" id="contact">
+<section class="contact band--soft" id="contact">
   <div class="container">
     <div class="contact__grid">
       <div class="contact__info">
         <span class="section-header__label">Contact</span>
         <h2>Get Your Free Estimate Today</h2>
         <p>Ready to transform your bathroom? Contact us for a free in-home estimate. We serve Edmond and the entire OKC metro area.</p>
-        <div class="contact__detail"><i class="ph ph-phone"></i> <a href="tel:4052813672">(405) 281-3672</a></div>
-        <div class="contact__detail"><i class="ph ph-envelope"></i> <span>contact@scissortailbath.com</span></div>
-        <div class="contact__detail"><i class="ph ph-map-pin"></i> Edmond, Oklahoma</div>
-        <div class="contact__detail"><i class="ph ph-clock"></i> Mon&ndash;Sat: 7:00 AM &ndash; 6:00 PM</div>
+        <div class="contact__detail"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.513 2.31a1.5 1.5 0 0 1-1.02 1.737l-1.183.394a.531.531 0 0 0-.316.712 11.042 11.042 0 0 0 5.567 5.567c.27.12.588-.006.712-.316l.394-1.183a1.5 1.5 0 0 1 1.737-1.02l2.31.513A1.5 1.5 0 0 1 18 14.352V15.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 7.326 13.019 13.019 0 0 1 2 4V3.5Z" clip-rule="evenodd"/></svg> <a href="tel:4052813672">(405) 281-3672</a></div>
+        <div class="contact__detail"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M3 4a2 2 0 0 0-2 2v1.161l8.441 4.221a1.25 1.25 0 0 0 1.118 0L19 7.162V6a2 2 0 0 0-2-2H3Z"/><path d="m19 8.839-7.77 3.885a2.75 2.75 0 0 1-2.46 0L1 8.839V14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.839Z"/></svg> <span>contact@scissortailbath.com</span></div>
+        <div class="contact__detail"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z" clip-rule="evenodd"/></svg> Edmond, Oklahoma</div>
+        <div class="contact__detail"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm.75-13a.75.75 0 0 0-1.5 0v5c0 .199.079.39.22.53l3 3a.75.75 0 1 0 1.06-1.06l-2.78-2.78V5Z" clip-rule="evenodd"/></svg> Mon&ndash;Sat: 7:00 AM &ndash; 6:00 PM</div>
       </div>
       <div id="form-success" style="display:none;background:#ecfdf5;border:1.5px solid #10b981;border-radius:10px;padding:20px;color:#065f46;margin-bottom:16px" role="status" aria-live="polite"><strong>Thanks — we got your request.</strong><br>We'll reach out shortly. Need us sooner? Call <a href="tel:4052813672">(405) 281-3672</a>.</div>
 <div id="form-error" style="display:none;background:#fef2f2;border:1.5px solid #ef4444;border-radius:10px;padding:20px;color:#7f1d1d;margin-bottom:16px" role="alert" aria-live="assertive"></div>
@@ -626,7 +560,7 @@
           <label for="zip">ZIP Code *</label>
           <input type="text" id="zip" name="zip" required autocomplete="postal-code" inputmode="numeric" maxlength="10" pattern="[0-9]{5}(-[0-9]{4})?" title="5-digit ZIP">
         </div>
-                            <button type="submit" class="btn--submit"><i class="ph ph-paper-plane-tilt"></i> Get My Free Estimate</button>
+                            <button type="submit" class="btn--submit"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M3.105 2.288a.75.75 0 0 0-.826.95l1.414 4.926A1.5 1.5 0 0 0 5.135 9.25h6.115a.75.75 0 0 1 0 1.5H5.135a1.5 1.5 0 0 0-1.442 1.086l-1.414 4.926a.75.75 0 0 0 .826.95 28.897 28.897 0 0 0 15.293-7.155.75.75 0 0 0 0-1.114A28.897 28.897 0 0 0 3.105 2.288Z"/></svg> Get My Free Estimate</button>
       </form>
     </div>
   </div>
@@ -634,12 +568,15 @@
 
 <!-- CTA BAND -->
 <!-- LOCAL SPECIFICITY -->
-<section class="content-section">
-  <div class="container">
+<section class="content-section band">
+  <div class="container split split--wide">
+    <div>
     <h2>Edmond Homes and Climate — What Affects Your Remodel</h2>
     <p>Many Edmond homes built in the 1980s–1990s have builder-grade bathrooms that haven't been touched since installation. These homes frequently have cast iron drain lines, galvanized supply lines, and undersized ventilation — all of which affect what a remodel involves and what it costs. We assess all of this during the free consultation and tell you what we find before anything is quoted.</p>
     <p>Oklahoma's humidity and freeze-thaw cycles make moisture management critical in every bathroom remodel. Ventilation isn't optional — it's structural protection. Every bathroom we remodel gets properly sized exhaust ventilation installed or verified, because a beautiful new bathroom with an undersized exhaust fan in Oklahoma's climate will have moisture problems within two years.</p>
     <p>We've worked across Edmond, Oklahoma City, Yukon, Mustang, Piedmont, and surrounding OKC metro communities — from older brick ranches near Coffee Creek to newer builds in Deer Creek. If there's something specific to your neighborhood or home era that affects the remodel, we've seen it.</p>
+    </div>
+    <div class="split__img"><img src="/images/site/okc-home.jpg" alt="Brick ranch home in Edmond, Oklahoma" loading="lazy" width="1600" height="1095"></div>
   </div>
 </section>
 
@@ -647,7 +584,7 @@
   <div class="container">
     <h2>Ready to Stop Tolerating That Bathroom?</h2>
     <p>Bathroom remodel calendars in Edmond book 4–6 weeks out for quality contractors. The sooner you schedule your free consultation, the sooner you have a start date — and the sooner you have a bathroom that actually works for you. The consultation is free, in-home, and comes with a written quote.</p>
-    <a href="tel:4052813672" class="btn"><i class="ph ph-phone"></i> Call (405) 281-3672</a>
+    <a href="tel:4052813672" class="btn"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.513 2.31a1.5 1.5 0 0 1-1.02 1.737l-1.183.394a.531.531 0 0 0-.316.712 11.042 11.042 0 0 0 5.567 5.567c.27.12.588-.006.712-.316l.394-1.183a1.5 1.5 0 0 1 1.737-1.02l2.31.513A1.5 1.5 0 0 1 18 14.352V15.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 7.326 13.019 13.019 0 0 1 2 4V3.5Z" clip-rule="evenodd"/></svg> Call (405) 281-3672</a>
   </div>
 </section>
 
@@ -656,7 +593,7 @@
   <div class="container">
     <div class="footer__grid">
       <div>
-        <div class="footer__brand">Edmond <span>Bathroom Remodeling</span></div>
+        <div class="footer__brand"><span class="brand-mark" aria-hidden="true">SB</span>Scissortail <span>Bath</span></div>
         <p>Professional bathroom remodeling services in Edmond, Oklahoma and the greater OKC metro. Licensed and insured.</p>
       </div>
       <div>
@@ -682,8 +619,8 @@
       <div>
         <h4>Contact</h4>
         <div class="footer__links">
-          <a href="tel:4052813672"><i class="ph ph-phone"></i> (405) 281-3672</a>
-          <a href="mailto:contact@scissortailbath.com"><i class="ph ph-envelope"></i> Email Us</a>
+          <a href="tel:4052813672"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.513 2.31a1.5 1.5 0 0 1-1.02 1.737l-1.183.394a.531.531 0 0 0-.316.712 11.042 11.042 0 0 0 5.567 5.567c.27.12.588-.006.712-.316l.394-1.183a1.5 1.5 0 0 1 1.737-1.02l2.31.513A1.5 1.5 0 0 1 18 14.352V15.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 7.326 13.019 13.019 0 0 1 2 4V3.5Z" clip-rule="evenodd"/></svg> (405) 281-3672</a>
+          <a href="mailto:contact@scissortailbath.com"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M3 4a2 2 0 0 0-2 2v1.161l8.441 4.221a1.25 1.25 0 0 0 1.118 0L19 7.162V6a2 2 0 0 0-2-2H3Z"/><path d="m19 8.839-7.77 3.885a2.75 2.75 0 0 1-2.46 0L1 8.839V14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.839Z"/></svg> Email Us</a>
           <p>Edmond, OK 73003</p>
         </div>
       </div>
@@ -698,12 +635,12 @@
 <!-- MOBILE CTA BAR -->
 <div class="mobile-cta">
   <div class="mobile-cta__inner">
-    <a href="tel:4052813672" class="mobile-cta__btn mobile-cta__btn--call"><i class="ph ph-phone"></i> Call Now</a>
-    <a href="#contact" class="mobile-cta__btn mobile-cta__btn--quote"><i class="ph ph-clipboard"></i> Free Quote</a>
+    <a href="tel:4052813672" class="mobile-cta__btn mobile-cta__btn--call"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.513 2.31a1.5 1.5 0 0 1-1.02 1.737l-1.183.394a.531.531 0 0 0-.316.712 11.042 11.042 0 0 0 5.567 5.567c.27.12.588-.006.712-.316l.394-1.183a1.5 1.5 0 0 1 1.737-1.02l2.31.513A1.5 1.5 0 0 1 18 14.352V15.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 7.326 13.019 13.019 0 0 1 2 4V3.5Z" clip-rule="evenodd"/></svg> Call Now</a>
+    <a href="#contact" class="mobile-cta__btn mobile-cta__btn--quote"><svg class="ic" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M18 5.25a2.25 2.25 0 0 0-2.012-2.238A2.25 2.25 0 0 0 13.75 1h-1.5a2.25 2.25 0 0 0-2.238 2.012c-.875.092-1.6.686-1.884 1.488H11A2.5 2.5 0 0 1 13.5 7v7h2.25A2.25 2.25 0 0 0 18 11.75v-6.5ZM12.25 2.5a.75.75 0 0 0-.75.75v.25h3v-.25a.75.75 0 0 0-.75-.75h-1.5Z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M3 6a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H3Zm6.874 4.166a.75.75 0 1 0-1.248-.832l-2.493 3.739-.853-.853a.75.75 0 0 0-1.06 1.06l1.5 1.5a.75.75 0 0 0 1.154-.114l3-4.5Z" clip-rule="evenodd"/></svg> Free Quote</a>
   </div>
 </div>
 
-<script src="js/main.js" defer></script>
+<script src="/js/main.js" defer></script>
 <script src="/js/form.js" defer></script>
 </body>
 </html>
