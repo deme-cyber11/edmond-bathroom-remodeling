@@ -389,3 +389,9 @@ body.st .mobile-cta, body.st .floating-cta { display: none; }
 }
 @keyframes st-slide { from { transform: translateX(40px); opacity: 0; } to { transform: none; opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { body.st * { transition: none !important; } }
+
+/* Hero photo as WebP where the browser supports image-set type(); others keep the JPEG
+   in --hero-img (speed: LCP). */
+@supports (background-image: image-set(url("a.webp") type("image/webp"))) {
+  [style*="--hero-img-webp"] { --hero-img: var(--hero-img-webp) !important; }
+}
