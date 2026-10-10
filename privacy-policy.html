@@ -128,6 +128,7 @@
     </ul>
 
     <h2>Third-Party Services</h2>
+    <p>When you request a quote, fill out a form or call us, we send your request and your contact details (name, phone number, email and address) to an independent local contractor who serves your area, so they can contact you about your project. That contractor may pay us a fee for the referral. If they cannot take the job, we may pass your request to another local contractor. Before a contractor takes the job, other local contractors may see a description of the work, any photos you send, your first name and your street, but not your last name, house number, phone number or email. We do not sell your information for unrelated marketing.</p>
     <p>We use the following third-party services to operate and improve our website:</p>
     <ul>
       <li><strong>Form processing</strong> &mdash; Contact form submissions are transmitted securely to our internal lead management system. We do not share your submission with third-party marketing platforms.</li>
@@ -234,5 +235,8 @@
   },{passive:true});
 })();
 </script>
+<!-- itd-d24: page attribution for leads and calls, managed by tools/page-attribution-plan.py -->
+<script>(function(){var A='https://lead-manager-api.irontigerdigital.workers.dev';function f(){var fs=document.querySelectorAll('form');for(var i=0;i<fs.length;i++){var x=fs[i],a=x.getAttribute('action')||'';if(a&&a.indexOf('/ingest')<0)continue;var h=x.querySelector('input[name="page_url"]');if(!h){h=document.createElement('input');h.type='hidden';h.name='page_url';x.appendChild(h);}h.value=location.pathname;}}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',f);else f();document.addEventListener('click',function(e){var t=e.target&&e.target.closest?e.target.closest('a[href^="tel:"]'):null;if(!t||!navigator.sendBeacon)return;try{navigator.sendBeacon(A+'/track/call-click',JSON.stringify({site:location.hostname.replace(/^www\./,''),page_path:location.pathname,tel:t.getAttribute('href')}));}catch(_){}},true);})();</script>
+<!-- /itd-d24 -->
 </body>
 </html>

@@ -140,6 +140,7 @@
 <div id="form-success" style="display:none;background:#ecfdf5;border:1.5px solid #10b981;border-radius:10px;padding:20px;color:#065f46;margin-top:2rem" role="status" aria-live="polite"><strong>Thanks, we got your request.</strong><br>We will reach out shortly to schedule your free estimate.</div>
 <div id="form-error" style="display:none;background:#fef2f2;border:1.5px solid #ef4444;border-radius:10px;padding:20px;color:#7f1d1d;margin-top:2rem" role="alert" aria-live="assertive"></div>
 <form action="https://lead-manager-api.irontigerdigital.workers.dev/ingest" class="card contact__form" id="contact" method="POST" data-error="form-error" data-fallback-tel="(405) 281-3672" data-strict="true" data-success="form-success" style="padding: 2rem; margin-top: 2rem;">
+<input type="hidden" name="page_url" value="/contact.html">
 <input name="site_domain" type="hidden" value="scissortailbath.com"/>
 <input autocomplete="off" name="_honey" style="display:none !important;position:absolute;left:-9999px" tabindex="-1" type="text"/>
 <input name="_redirect" type="hidden" value="https://scissortailbath.com/contact.html#success"/>
@@ -196,6 +197,7 @@
 </div>
 <button class="btn btn-primary" style="width: 100%;" type="submit">Request Free Estimate</button>
 <p style="font-size: 0.8rem; margin-top: 0.75rem; text-align: center;">Same-day response. No obligation. Licensed and insured.</p>
+<p class="itd-form-notice" style="grid-column:1/-1;margin:.75rem 0 0;font-size:.8125rem;line-height:1.5;text-align:center">Your request and contact details go to an independent local contractor who serves your area, so they can contact you about your project.</p>
 </form>
 
     </div>
@@ -267,5 +269,8 @@
   },{passive:true});
 })();
 </script>
+<!-- itd-d24: page attribution for leads and calls, managed by tools/page-attribution-plan.py -->
+<script>(function(){var A='https://lead-manager-api.irontigerdigital.workers.dev';function f(){var fs=document.querySelectorAll('form');for(var i=0;i<fs.length;i++){var x=fs[i],a=x.getAttribute('action')||'';if(a&&a.indexOf('/ingest')<0)continue;var h=x.querySelector('input[name="page_url"]');if(!h){h=document.createElement('input');h.type='hidden';h.name='page_url';x.appendChild(h);}h.value=location.pathname;}}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',f);else f();document.addEventListener('click',function(e){var t=e.target&&e.target.closest?e.target.closest('a[href^="tel:"]'):null;if(!t||!navigator.sendBeacon)return;try{navigator.sendBeacon(A+'/track/call-click',JSON.stringify({site:location.hostname.replace(/^www\./,''),page_path:location.pathname,tel:t.getAttribute('href')}));}catch(_){}},true);})();</script>
+<!-- /itd-d24 -->
 </body>
 </html>
